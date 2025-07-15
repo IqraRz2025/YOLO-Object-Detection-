@@ -23,11 +23,14 @@ Easy to modify for different datasets and detection tasks.
 # Libraries Used
 
 Ultralytics YOLO: For loading and running the YOLOv8 pre-trained model and object tracking.
+
 OpenCV: For video processing and image manipulation.
+
 Pillow (PIL): For converting OpenCV images to a format compatible with Tkinter GUI.
+
 Tkinter: To build the graphical user interface.
 
-## Requirements
+# Requirements
 
 - Python 3.8+
 - Ultralytics YOLO
@@ -35,7 +38,6 @@ Tkinter: To build the graphical user interface.
 
 Install:
 
-```bash
 pip install ultralytics opencv-python
 
 # Run Detection
@@ -166,7 +168,7 @@ surfboard
 
 tennis racket
 
-## Tools / Objects
+# Tools / Objects
 
 knife
 
@@ -198,7 +200,7 @@ donut
 
 cake
 
-## Custom Detection
+# Custom Detection
 YOLOv8 can also detect custom objects like:
 
 License plates
@@ -218,6 +220,9 @@ Industrial parts
 # About YOLOv8 Model
 
 YOLO (You Only Look Once) is a popular real-time object detection architecture known for its speed and accuracy.
+
 YOLOv8 is the latest version from Ultralytics with improvements in detection quality, speed, and usability.
+
 The model used here is yolov8s.pt (small version) which balances accuracy and speed, suitable for real-time applications.
+
 The model supports both object detection and tracking.
